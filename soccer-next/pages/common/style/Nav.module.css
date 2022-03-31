@@ -1,9 +1,10 @@
 .nav{
     display: flex;
     justify-content: space-between;
-    background-color: yellow;
+    background-color: rgb(206, 176, 214);
+
 }
 .li{
     display: inline;
-    margin-left: 40px;
+    margin-left: 30px;
 }
