@@ -11,6 +11,7 @@ export default function Nav(){
                 <li className={styles.li}><Link href='/basic/counter'>Counter</Link></li>
                 <li className={styles.li}><Link href='/basic/bmi'>BMI</Link></li>
                 <li className={styles.li}><Link href='/board/board-list'>Boardlist</Link></li>
+                <li className={styles.li}><Link href='/board/board-form'>BoardForm</Link></li>
                 <li className={styles.li}><Link href='/game/game-list'>GameList</Link></li>
                 <li className={styles.li}><Link href='/game/team-list'>TeamList</Link></li>
                 <li className={styles.li}><Link href='/todo/todo-list'>TodoList</Link></li>
@@ -18,5 +19,5 @@ export default function Nav(){
                 <li className={styles.li}><Link href='/user/sign-up'>SignUp</Link></li>    
             </ul>
         </nav>
-    )
+    );
 }
