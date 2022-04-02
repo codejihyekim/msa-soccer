@@ -1,9 +1,9 @@
-import {Layout} from "common"
+import { Layout } from "common"
 
 function MyApp({Component, pageProps}) {
   return (
-  <Layout>
+    <Layout>
       <Component {...pageProps}/>
-  </Layout>)
+    </Layout>)
 }
 export default MyApp

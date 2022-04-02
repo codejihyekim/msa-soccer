@@ -1,8 +1,10 @@
 import axios from 'axios';
 import React, { useCallback } from 'react';
+
 const Button = ({ onClick }) => (
   <button onClick={onClick}>현재 시간</button>
 );
+
 export default function Home() {
   const onClick = useCallback(() => {
     axios.get("http://localhost:5000/api/now").then((res) => {
